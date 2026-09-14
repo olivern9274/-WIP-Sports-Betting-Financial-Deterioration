@@ -32,6 +32,57 @@ Trimmed to 2012-2024 (13 measured years).
 | Post-Treament | post | =1 in years at/after a treated state's legalization year, 0 otherwise |
 
 # Methodology
+### Step 1: Dataset Construction
+
+All analysis was conducted in Stata. The individual datasets (credit delinquency, GDP, labor market, and income per capita) were each reshaped and trimmed into long-panel `.dta` files, then merged together on `state` and `year`. Legalization years were merged in separately to construct the treatment variable, after which non-comparable states were dropped and the panel was finalized.
+ 
+```stata
+clear
+use ccp_delinquency_merged.dta, clear
+ 
+merge 1:1 state year using rgdp_long.dta
+drop _merge
+ 
+merge 1:1 state year using state_labor.dta
+drop _merge
+ 
+merge 1:1 state year using ricapita_long.dta
+drop _merge
+ 
+merge m:1 state using "C:\Users\ong92\Desktop\Research Folder\legalization_years.dta"
+drop _merge
+ 
+ 
+* Treatment
+gen treat = !missing(legal_year)   // 1 = legalized, 0 = never legalized
+ 
+destring treat, replace
+destring legal_year, replace
+ 
+* Post-Treatment Indicator
+gen post = year >= legal_year if treat==1
+replace post = 0 if treat==0
+ 
+* Dropping
+drop if state == "PR"
+drop if state == "WA"
+drop if state == "NM"
+drop if state == "ND"
+drop if state == "SD"
+drop if state == "NE"
+drop if state == "WI"
+drop if state == "MS"
+drop if state == "NV"
+ 
+* Panel
+encode state, gen(state_id)
+xtset state_id year
+keep if year >= 2012
+ 
+save finaldata, replace
+```
+ 
+States permitting only **retail** (offline) betting (Washington, New Mexico, North Dakota, South Dakota, Nebraska, Wisconsin, Mississippi) are dropped since the focus is specifically on *online* access, as are Puerto Rico (incomplete CCP coverage post-2017) and Nevada (legalized prior to the study period). The sample is restricted to 2012 onward to focus on relevant pre-treatment dynamics.
 
 ## Step 1: Data Construction
 
