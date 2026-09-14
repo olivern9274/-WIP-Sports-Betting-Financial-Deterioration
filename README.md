@@ -6,7 +6,7 @@ After the overturning of the Professional and Amateur Sports Protection Act (PAS
 
 # Data
 ## Source(s): 
-[The New York Federal Reserve's Center for Microeconomic Data](https://www.newyorkfed.org/microeconomics/databank.html). Using the data under "Quarterly Report on Household Debt and Credit."
+[The New York Federal Reserve's Center for Microeconomic Data](https://www.newyorkfed.org/microeconomics/databank.html).
 
 Bureau of Labor Statistics.
 
@@ -36,6 +36,7 @@ Bureau of Economic Analysis.
 *stud_bal* - the total balance of student loan debt.
 
 **Economic Indicators:**
+
 *rgdp* - the real gross domestic product of a state in chained 2017 dollars.
 
 *pop* - the population of a state.
@@ -45,3 +46,8 @@ Bureau of Economic Analysis.
 *ricapita* - the real income per capita of a state in chained 2017 dollars.
 
 *labor_force* - the size of the labor force of a state.
+
+# Methodology
+
+## Step 1: Data Construction
+
