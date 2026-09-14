@@ -17,14 +17,15 @@ Trimmed to 2012-2024 (13 measured years).
 ## Sample Size:
 559 observations across 43 states. 
 ## Key Variables:
-| Variable | Description |
+| Variable | Variable Name | Description |
 |---|---|
-| Credit Card Delinquency | Share of credit card balances 90+ days past due |
-| Auto Loan Delinquency | Share of auto loan balances 90+ days past due |
-| Unemployment Rate | State-level unemployment rate (BLS) |
-| Real GDP (log) | State-level economic output, log-transformed for percent-change interpretation |
-| Income per Capita | Real income per capita by state |
-| Population | State population level |
+| Credit Card Delinquency | cc_delinq | Share of credit card balances 90+ days past due |
+| Auto Loan Delinquency | auto_delinq | Share of auto loan balances 90+ days past due |
+| Mortgage Delinquency | mort_delinq | Share of mortgage balances 90+ days past due |
+| Unemployment Rate | unemp | State-level unemployment rate (BLS) |
+| Real GDP (log) | lnrgdp |State-level economic output, log-transformed for percent-change interpretation |
+| Income per Capita | ricapita | Real income per capita by state |
+| Population | pop | State population level |
 
 # Methodology
 
