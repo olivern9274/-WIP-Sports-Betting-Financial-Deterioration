@@ -18,7 +18,7 @@ Trimmed to 2012-2024 (13 measured years).
 559 observations across 43 states. 
 ## Key Variables:
 | Variable | Variable Name | Description |
-|---|---|
+|---|---|---|
 | Credit Card Delinquency | cc_delinq | Share of credit card balances 90+ days past due |
 | Auto Loan Delinquency | auto_delinq | Share of auto loan balances 90+ days past due |
 | Mortgage Delinquency | mort_delinq | Share of mortgage balances 90+ days past due |
