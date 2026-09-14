@@ -14,8 +14,10 @@ Bureau of Economic Analysis - state-level real GDP and income per capita (2005â€
 
 ## Time Period:
 Trimmed to 2012-2024 (13 measured years).
+
 ## Sample Size:
-559 observations across 43 states. 
+559 observations. Final panel of 43 states plus Washington, D.C. (26 treated during the sample period).
+
 ## Key Variables:
 | Variable | Variable Name | Description |
 |---|---|---|
@@ -26,6 +28,8 @@ Trimmed to 2012-2024 (13 measured years).
 | Real GDP (log) | lnrgdp |State-level economic output, log-transformed for percent-change interpretation |
 | Income per Capita | ricapita | Real income per capita by state |
 | Population | pop | State population level |
+| Treated | treat | =1 if a state ever legalized online sports betting, 0 if never |
+| Post-Treament | post | =1 in years at/after a treated state's legalization year, 0 otherwise |
 
 # Methodology
 
