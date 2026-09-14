@@ -6,11 +6,11 @@ After the overturning of the Professional and Amateur Sports Protection Act (PAS
 
 # Data
 ## Source(s): 
-[The New York Federal Reserve's Center for Microeconomic Data](https://www.newyorkfed.org/microeconomics/databank.html).
+[The New York Federal Reserve's Center for Microeconomic Data](https://www.newyorkfed.org/microeconomics/databank.html) - a 5% nationally representative sample of Equifax credit filings, providing annual state-level delinquency and balance data (2003–2024)
 
-Bureau of Labor Statistics.
+Bureau of Labor Statistics - state-level population, unemployment, and labor force data (2005–2024).
 
-Bureau of Economic Analysis.
+Bureau of Economic Analysis - state-level real GDP and income per capita (2005–2024).
 
 ## Time Period:
 2012-2024 (13 measured years).
