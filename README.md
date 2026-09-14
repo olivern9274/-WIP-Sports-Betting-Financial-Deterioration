@@ -17,35 +17,15 @@ Bureau of Economic Analysis.
 ## Sample Size:
 559 observations across 43 states. 
 ## Key Variables:
-**Financial Indicators:**
-
-*cc_delinq* - the percentage of credit card debt 90+ days delinquent.
-
-*auto_delinq* - the percentage of auto loan debt 90+ days delinquent.
-
-*mort_delinq* - the percentage of mortgage debt 90+ days delinquent.
-
-*stud_delinq* - the percentage of student loan debt 90+ days delinquent.
-
-*cc_bal* - the total balance of credit card debt.
-
-*auto_bal* - the total balance of auto loan debt.
-
-*mort_bal* - the total balance of mortgage debt.
-
-*stud_bal* - the total balance of student loan debt.
-
-**Economic Indicators:**
-
-*rgdp* - the real gross domestic product of a state in chained 2017 dollars.
-
-*pop* - the population of a state.
-
-*unemp* - the unemployment rate of a state.
-
-*ricapita* - the real income per capita of a state in chained 2017 dollars.
-
-*labor_force* - the size of the labor force of a state.
+### Key Variables
+| Variable | Description |
+|---|---|
+| Credit Card Delinquency | Share of credit card balances 90+ days past due |
+| Auto Loan Delinquency | Share of auto loan balances 90+ days past due |
+| Unemployment Rate | State-level unemployment rate (BLS) |
+| Real GDP (log) | State-level economic output, log-transformed for percent-change interpretation |
+| Income per Capita | Real income per capita by state |
+| Population | State population level |
 
 # Methodology
 
