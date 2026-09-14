@@ -7,11 +7,13 @@ After the overturning of the Professional and Amateur Sports Protection Act (PAS
 # Data
 ## Source(s): 
 [The New York Federal Reserve's Center for Microeconomic Data](https://www.newyorkfed.org/microeconomics/databank.html). Using the data under "Quarterly Report on Household Debt and Credit."
+
 Bureau of Labor Statistics.
+
 Bureau of Economic Analysis.
 
 ## Time Period:
-2012-2024
+2012-2024 (13 measured years).
 ## Sample Size:
 559 observations across 43 states. 
 ## Key Variables:
