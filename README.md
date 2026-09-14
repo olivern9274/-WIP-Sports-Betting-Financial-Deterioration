@@ -17,7 +17,6 @@ Bureau of Economic Analysis.
 ## Sample Size:
 559 observations across 43 states. 
 ## Key Variables:
-### Key Variables
 | Variable | Description |
 |---|---|
 | Credit Card Delinquency | Share of credit card balances 90+ days past due |
