@@ -13,7 +13,7 @@ Bureau of Labor Statistics - state-level population, unemployment, and labor for
 Bureau of Economic Analysis - state-level real GDP and income per capita (2005–2024).
 
 ## Time Period:
-2012-2024 (13 measured years).
+Trimmed to 2012-2024 (13 measured years).
 ## Sample Size:
 559 observations across 43 states. 
 ## Key Variables:
